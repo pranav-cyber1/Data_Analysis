@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
-df=pd.read_csv("/home/codex/Desktop/Python/streamlit_app/startup_funding.csv")
+df=pd.read_csv("startup_funding.csv")
 #st.dataframe(df)
 
 # Data cleaning part
